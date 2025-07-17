@@ -1,0 +1,177 @@
+/* style.css - Enhanced styling with improved contrast */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background 1s ease-in-out;
+    animation: fadeIn 1s ease-in-out;
+    background-color: #f0fdf4;
+    color: #1a1a1a;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.chat-bubble {
+    transition: all 0.3s ease-in-out;
+    word-wrap: break-word;
+    line-height: 1.5;
+    padding: 10px 15px;
+    border-radius: 18px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    animation: popIn 0.3s ease;
+    color: #111827;
+}
+
+@keyframes popIn {
+    0% {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.bg-green-100 {
+    background-color: #a7f3d0;
+    /* stronger green */
+}
+
+.bg-blue-100 {
+    background-color: #bfdbfe;
+    /* stronger blue */
+}
+
+button {
+    background-color: #10b981;
+    color: white;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #059669;
+}
+
+input {
+    background-color: white;
+    color: #111827;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4ade80;
+    box-shadow: 0 0 0 2px #bbf7d0;
+}
+
+/* Typing animation like a game loader */
+#typing::after {
+    content: '⏳ Thinking .';
+    animation: dots 1.5s infinite steps(3);
+    display: inline-block;
+    margin-left: 5px;
+}
+
+@keyframes dots {
+    0% {
+        content: '⏳ Thinking .';
+    }
+
+    33% {
+        content: '⏳ Thinking ..';
+    }
+
+    66% {
+        content: '⏳ Thinking ...';
+    }
+
+    100% {
+        content: '⏳ Thinking .';
+    }
+}
+
+/* Smooth scrollbar for modern feel */
+#chatBox::-webkit-scrollbar {
+    width: 8px;
+}
+
+#chatBox::-webkit-scrollbar-track {
+    background: #e5e7eb;
+    border-radius: 10px;
+}
+
+#chatBox::-webkit-scrollbar-thumb {
+    background: #6ee7b7;
+    border-radius: 10px;
+}
+
+#chatBox::-webkit-scrollbar-thumb:hover {
+    background: #34d399;
+}
+
+/* Responsive overrides */
+@media (max-width: 640px) {
+    .max-w-2xl {
+        max-width: 100% !important;
+        height: 95vh;
+    }
+
+    input,
+    button {
+        font-size: 1rem;
+    }
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1f2937;
+        color: #f9fafb;
+    }
+
+    .chat-bubble {
+        background-color: #374151;
+        color: #f9fafb;
+    }
+
+    #userInput {
+        background-color: #4b5563;
+        color: #f9fafb;
+        border-color: #6b7280;
+    }
+
+    #chatBox {
+        background-color: #374151;
+    }
+
+    header,
+    footer {
+        background-color: #065f46;
+        color: white;
+    }
+
+    button {
+        background-color: #10b981;
+        color: white;
+    }
+
+    button:hover {
+        background-color: #059669;
+    }
+}
