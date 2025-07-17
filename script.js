@@ -4,7 +4,7 @@ const userInput = document.getElementById("userInput");
 const typingIndicator = document.getElementById("typing");
 const clearBtn = document.getElementById("clearChat");
 
-const API_KEY = "AIzaSyBRRKD_iciEsqDFKU8oDojqwBDF3umaulw";
+const API_KEY = "Your Gemini API Studio Key";
 
 // Load DOMPurify for safe rendering
 const purifyScript = document.createElement('script');
