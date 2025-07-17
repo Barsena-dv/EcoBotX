@@ -1,5 +1,3 @@
-/* style.css - Enhanced styling with improved contrast */
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     transition: background 1s ease-in-out;
@@ -45,12 +43,10 @@ body {
 
 .bg-green-100 {
     background-color: #a7f3d0;
-    /* stronger green */
 }
 
 .bg-blue-100 {
     background-color: #bfdbfe;
-    /* stronger blue */
 }
 
 button {
@@ -80,7 +76,6 @@ input:focus {
     box-shadow: 0 0 0 2px #bbf7d0;
 }
 
-/* Typing animation like a game loader */
 #typing::after {
     content: '⏳ Thinking .';
     animation: dots 1.5s infinite steps(3);
