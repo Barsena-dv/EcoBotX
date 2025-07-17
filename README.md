@@ -3,8 +3,13 @@ EcoBotX is an AI-powered chatbot that helps users reduce energy consumption, low
 # ⚡ Smart Energy Chatbot
 
 An AI-powered chatbot that helps households and businesses reduce energy consumption, save on electric bills, and explore renewable energy solutions like solar, wind, and hydro power.
+Link To the Website:
+http://eco-bot-x-barsena-dhruvs-projects.vercel.app/
 
-https://drive.google.com/file/d/13kUhkI4Zje_x1tMjiSynYxUlLegMlGrZ/view?usp=sharing  https://drive.google.com/file/d/1GUILmZxrGGPsj__mF2jXOaotKNSbTtGO/view?usp=sharing  https://drive.google.com/file/d/1KmlsunoRoJybJWNHxCmGvYPakHy8QYDl/view?usp=sharing  https://drive.google.com/file/d/1qT08D2kCaLsTDCrs7HCGSJsETjnG7SxM/view?usp=sharing
+<img width="793" height="766" alt="Screenshot 2025-07-17 154645" src="https://github.com/user-attachments/assets/20b74506-2fb8-4590-8b82-e1acb067d5de" />
+<img width="683" height="798" alt="Screenshot 2025-07-17 170138" src="https://github.com/user-attachments/assets/1d9a5d9c-f7bd-455e-8ab8-0dafc91a1226" />
+<img width="685" height="804" alt="Screenshot 2025-07-17 170127" src="https://github.com/user-attachments/assets/d6ebe359-7319-4ca2-9da1-01ccd36baf7d" />
+<img width="693" height="810" alt="Screenshot 2025-07-17 170116" src="https://github.com/user-attachments/assets/5af4f320-fad0-401d-95c9-15e00f925b02" />
 
 ---
 
