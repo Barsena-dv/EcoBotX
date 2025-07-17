@@ -1,5 +1,3 @@
-// script.js - Gemini-powered Smart Energy Chatbot (Improved UTF-8, DOMPurify, History Fixes)
-
 // DOM elements
 const chatBox = document.getElementById("chatBox");
 const userInput = document.getElementById("userInput");
@@ -26,7 +24,6 @@ function appendMessage(message, sender) {
         .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
         .replace(/\*(.*?)\*/g, '<em>$1</em>');
 
-    // Sanitize output
     bubble.innerHTML = window.DOMPurify ? DOMPurify.sanitize(markdownConverted) : markdownConverted;
     chatBox.appendChild(bubble);
     chatBox.scrollTop = chatBox.scrollHeight;
