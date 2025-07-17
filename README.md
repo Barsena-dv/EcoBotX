@@ -4,7 +4,7 @@ EcoBotX is an AI-powered chatbot that helps users reduce energy consumption, low
 
 An AI-powered chatbot that helps households and businesses reduce energy consumption, save on electric bills, and explore renewable energy solutions like solar, wind, and hydro power.
 Link To the Website:
-http://eco-bot-x-barsena-dhruvs-projects.vercel.app/
+(https://eco-bot-x.vercel.app/)
 
 <img width="793" height="766" alt="Screenshot 2025-07-17 154645" src="https://github.com/user-attachments/assets/20b74506-2fb8-4590-8b82-e1acb067d5de" />
 <img width="683" height="798" alt="Screenshot 2025-07-17 170138" src="https://github.com/user-attachments/assets/1d9a5d9c-f7bd-455e-8ab8-0dafc91a1226" />
